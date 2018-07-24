@@ -1,0 +1,39 @@
+/* PHASE 9: Forms */
+.thumb {
+  float: left;
+}
+
+.input {
+  float: right;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 19px;
+  word-wrap: break-word;
+}
+
+.label {
+  width: 100%;
+  font-weight: bold;
+}
+
+input[type = "text"], textarea {
+  width: calc(100% - 22px);
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#post_title {
+  margin-bottom: 25px;
+}
+
+.submit button{
+  background-color: #0c0;
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
